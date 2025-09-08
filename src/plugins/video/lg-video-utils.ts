@@ -69,7 +69,7 @@ export const getVimeoURLParams = (
         {},
         {
             autoplay: 0,
-            muted: 1,
+            muted: 0,
         },
         defaultParams,
     );

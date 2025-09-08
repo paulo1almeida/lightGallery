@@ -123,7 +123,7 @@ var getVimeoURLParams = function (defaultParams, videoInfo) {
     var urlParams = videoInfo.vimeo[2] || '';
     var defaultVimeoPlayerParams = Object.assign({}, {
         autoplay: 0,
-        muted: 1,
+        muted: 0,
     }, defaultParams);
     var defaultPlayerParams = defaultVimeoPlayerParams &&
         Object.keys(defaultVimeoPlayerParams).length !== 0
