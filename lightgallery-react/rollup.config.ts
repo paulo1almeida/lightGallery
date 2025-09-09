@@ -21,7 +21,7 @@ export default [
             },
         ],
         // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
-        external: ['react'],
+        external: ['react', 'lightgallery', 'lightgallery/lg-settings', 'lightgallery/lg-events'],
         plugins: [
             // Allow json resolution
             json(),

@@ -1,7 +1,7 @@
 //https://github.com/facebook/create-react-app/issues/8785
 import * as React from 'react';
 
-import { LightGallerySettings } from 'lightgallery/lg-settings';
+import type { LightGallerySettings } from 'lightgallery/lg-settings';
 import LightGallery from 'lightgallery';
 import {
     AfterSlideDetail,
